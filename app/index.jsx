@@ -6,7 +6,7 @@ import { StatusBar } from "expo-status-bar";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import { images } from "../constants";
-import CustomButtom from "../components/CustomButtom";
+import CustomButton from "../components/CustomButton";
 
 export default function App() {
   return (
@@ -39,7 +39,7 @@ export default function App() {
             Where Creativity Meets Innovation: Embark on a Journey of Limitless
             Exploration with Aora
           </Text> 
-          <CustomButtom title='Continue wth Email' handlePress={()=>router.push('/sign-in')} containerStyle='w-full mt-7' />
+          <CustomButton title='Continue wth Email' handlePress={()=>router.push('/sign-in')} containerStyle='w-full mt-7' />
         </View>
       </ScrollView> 
       {/* this controlls the time and battery bar on the phone */}
